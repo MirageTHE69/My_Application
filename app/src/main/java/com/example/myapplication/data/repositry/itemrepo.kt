@@ -30,7 +30,7 @@ class itemrepo(
         try {
             val fireservice: LiveData<List<item>> = itemremote.getitem()
 
-                //
+                //??????????????
 
         }catch (exception:Exception){
             Log.i("my tag ",exception.message.toString())
